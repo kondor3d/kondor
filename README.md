@@ -1,5 +1,7 @@
 # kondor
 
+
+### 1. What't Kondor?
 Kondor is an open source LCD (mask)3D printer firmware started by 2 team members of Peopoly. Our goal is to create a flexible firmware that can run on different types of boards and is ideal for experimentation and customization.   
 Here are the key features:
 -    Drive 2 LCDs via SPI + HDMI that improves performance
@@ -19,6 +21,7 @@ We believe there should be more open source projects launched by Asian developer
 
 While the project is launched by2 guys from Asia, it belongs to the world. Join us to have some fun printing, testing and push the project forward.
 
+### 2.How to use it?
 -
 Pre-flight 5/9/2019
 
@@ -29,7 +32,7 @@ The first stage is making sure testers have the Pi 3B and can connect the slicer
 4.    Install Slicer by extracting it from the zip file
 5.    Power on Pi 3B and connect to the network via ethernet cable
 6.    Making sure there is disk activity and if you have 
-7.    Find out the IP address of the Pi3B via router
+7.    Find out the IP address of the Pi3B via router(or the IP will show in the touchscreen when it first start)
 8.    Enter Ip address to the slicer and hit connect
 
 
