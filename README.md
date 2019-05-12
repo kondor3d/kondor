@@ -23,16 +23,10 @@ While the project is launched by2 guys from Asia, it belongs to the world. Join 
 
 ### 2.How to use it?
 -
-Pre-flight 5/9/2019
+Pre-flight 5/12/2019
 
 The first stage is making sure testers have the Pi 3B and can connect the slicer to the firmware.
-1.    Find a Pi 3B and an ethernet cable. Option (A 4” LCD connection via SPI) 
-2.    Download  Firmware here and Slicer here
-3.    Flash Pi 3B firmware using Win32image
-4.    Install Slicer by extracting it from the zip file
-5.    Power on Pi 3B and connect to the network via ethernet cable
-6.    Making sure there is disk activity and if you have 
-7.    Find out the IP address of the Pi3B via router(or the IP will show in the touchscreen when it first start)
-8.    Enter Ip address to the slicer and hit connect
+please use this Google doc for instructions for now:
+https://docs.google.com/document/d/19AATh-Tu5reST9AKc0AZlHu6AHty7qCWfsSJ5gP3phQ/edit?usp=sharing
 
 
