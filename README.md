@@ -4,9 +4,9 @@
 ### 1. What't Kondor?
 Kondor is an open source LCD (mask)3D printer firmware started by 2 team members of Peopoly. Our goal is to create a flexible firmware that can run on different types of boards and is ideal for experimentation and customization.   
 Here are the key features:
--    Drive 2 LCDs via SPI + HDMI that improves performance
+-    Drive 2 LCDs via SPI + HDMI for improves performance over UART
 -    Easy to get and low-cost BOM 
--    Runs on PI3
+-    Runs on inexpensive easy to acquire boards like Pi 3B
 -    Able to do 4K
 -    Core is C++
 -    Ability to drive DLP (not at initial launch)
