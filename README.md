@@ -28,5 +28,7 @@ Pre-flight 5/12/2019
 The first stage is making sure testers have the Pi 3B and can connect the slicer to the firmware.
 please use this Google doc for instructions for now:
 https://docs.google.com/document/d/19AATh-Tu5reST9AKc0AZlHu6AHty7qCWfsSJ5gP3phQ/edit?usp=sharing
+We will move the descrition to github once we have the firmware more tested out. 
+
 
 
