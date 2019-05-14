@@ -22,13 +22,28 @@ We believe there should be more open source projects launched by Asian developer
 While the project is launched by2 guys from Asia, it belongs to the world. Join us to have some fun printing, testing and push the project forward.
 
 ### 2.How to use it?
--
-Pre-flight 5/12/2019
+
+**Pre-flight  5/12/2019**
 
 The first stage is making sure testers have the Pi 3B and can connect the slicer to the firmware.
 please use this Google doc for instructions for now:
 https://docs.google.com/document/d/19AATh-Tu5reST9AKc0AZlHu6AHty7qCWfsSJ5gP3phQ/edit?usp=sharing
 We will move the descrition to github once we have the firmware more tested out. 
+
+**Todo List 5/14/2019**
+
+Here's some idear we need to do.
+
+- Slicer
+    - translate some chinese to english
+    - record the device ip by default
+    - hide/remove the autosupport temporarily
+
+- Pi Server Controler
+    - add auto connect serial port 
+    - test the gcode sender in the pi, test z motor and titlt motor
+    - report the pi's IP when the software start
+    - fix the virtual keyboard bug
 
 
 
