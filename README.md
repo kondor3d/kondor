@@ -40,7 +40,7 @@ Here are some ideas we need to do.
     - record/save the device IP address by default
     - hide/remove the autosupport option temporarily
 
-- Pi Server Controler
+- Pi Server Controller
     - add auto connect serial port 
     - test the gcode sender in the Pi
     - test z motor and tilt motor
