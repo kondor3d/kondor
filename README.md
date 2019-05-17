@@ -31,6 +31,11 @@ Please use this Google doc for instructions for now:
 https://docs.google.com/document/d/19AATh-Tu5reST9AKc0AZlHu6AHty7qCWfsSJ5gP3phQ/edit?usp=sharing
 We will move the description to github once we have everything (code, links, suppliers) better tested.
 
+**Latest Update 5/17/2019**
+We have added step controller firmware and updated Kondor firmware to control the motor.
+We also updated the BOM list.
+
+
 **Todo List 5/14/2019**
 
 Here are some ideas we need to do.
