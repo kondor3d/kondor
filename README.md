@@ -44,6 +44,8 @@ Here are some ideas we need to do.
     - translate some Chinese to English
     - record/save the device IP address by default
     - hide/remove the autosupport option temporarily
+    - able to stop / pause print remotely
+    - able to set print settings (layer height, layer time, z-axis motor speed)
 
 - Pi Server Controller
     - add auto connect serial port 
