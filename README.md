@@ -77,6 +77,10 @@ Kondor最初的版本是基于DLP的控制开发的，我们在使用的过程�
 
 ![图片](./doc-img/2019-7-20/kondor-6.jpg)
 
+#### 3. Konder Wifi Set
+
+在Kondor Pi Image中，我们使用了[RaspAP](https://github.com/billz/raspap-webgui)来进行网络配置，请查看相关详情
+
 
 
 
