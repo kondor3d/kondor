@@ -51,15 +51,16 @@ Here's some idear we need to do.
 
 ### Kondor Code Refactoring
 
-Kondor最初的版本是基于DLP的控制开发的，我们在使用的过程中，发现有很多地方在LCD打印机上不太使用，尤其是界面放在一个3.5寸的屏幕上时。
-根据我们目前的用户的反馈，Kondor目前分为如下几个模块:
 
-- Kondor Slicer, 用于切片，添加支撑，最简单的传输文件
-- Kondor Device Manager, 用于管理Kondor设备, 基本功能包括: 传输打印文件，发现局域网的LCD打印机
-- Kondor Pi Image , 适用于Raspberry 3b的一个镜像文件，实现脱机打印等打印功能
-- Kondor Marlin, 适用于基于2560 Ramp1.4主板的一个Marlin固件，用于控制电机和LCD的灯泡等
 
-上述四个为当前重构的内容。 如下是基本的UI界面:
+Kondor was ported from a DLP printer controller code and we found that parts of the codes  is not needed or not practical for LCD printers (especially one with a small 3.5" screen). We have since update the code to reflect user feedback:
+
+- Kondor Slicer - This is for slicing, adding support and simple transfer of the files for printing.
+- Kondor Device Manager, This is for managing printers running Kondor. It can be used to discover printers and send files.
+- Kondor Pi Image This is the Kondor image for Pi3. This firmware allows Pi3 to control LCD panels and talk to the Slicer and Device Manager.
+- Kondor Marlin, This is for 2560 Ramp1.4 board. It is used to control motors and LED
+
+Above are the 4 corner stones for Kondor project.  Below of the basic UI
 
 #### 1. Device Manager
 ![图片](./doc-img/2019-7-20/kondor-2.jpg)
@@ -79,7 +80,7 @@ Kondor最初的版本是基于DLP的控制开发的，我们在使用的过程�
 
 #### 3. Konder Wifi Set
 
-在Kondor Pi Image中，我们使用了[RaspAP](https://github.com/billz/raspap-webgui)来进行网络配置，请查看相关详情
+In Kondor Pi Image中，We utilize [RaspAP](https://github.com/billz/raspap-webgui) for setting network configuration. Please see the link if you want to learn more.
 
 
 
