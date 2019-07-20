@@ -1,6 +1,8 @@
+![img](./doc-img/kondor-logo.png)
+
+---
 # kondor
-
-
+---
 ### 1. What't Kondor?
 Kondor is an open source LCD (mask)3D printer firmware started by 2 team members of Peopoly. Our goal is to create a flexible firmware that can run on different types of boards and is ideal for experimentation and customization.   
 Here are the key features:
@@ -44,6 +46,40 @@ Here's some idear we need to do.
     - [x] test the gcode sender in the pi, test z motor and titlt motor
     - [x] report the pi's IP when the software start
     - [ ] fix the virtual keyboard bug
+
+
+
+### Kondor Code Refactoring
+
+Kondor最初的版本是基于DLP的控制开发的，我们在使用的过程中，发现有很多地方在LCD打印机上不太使用，尤其是界面放在一个3.5寸的屏幕上时。
+根据我们目前的用户的反馈，Kondor目前分为如下几个模块:
+
+- Kondor Slicer, 用于切片，添加支撑，最简单的传输文件
+- Kondor Device Manager, 用于管理Kondor设备, 基本功能包括: 传输打印文件，发现局域网的LCD打印机
+- Kondor Pi Image , 适用于Raspberry 3b的一个镜像文件，实现脱机打印等打印功能
+- Kondor Marlin, 适用于基于2560 Ramp1.4主板的一个Marlin固件，用于控制电机和LCD的灯泡等
+
+上述四个为当前重构的内容。 如下是基本的UI界面:
+
+#### 1. Device Manager
+![图片](./doc-img/2019-7-20/kondor-2.jpg)
+
+![图片](./doc-img/2019-7-20/kondor-1.jpg)
+
+
+#### 2. Kondor Pi Image
+
+![图片](./doc-img/2019-7-20/kondor-3.jpg)
+
+![图片](./doc-img/2019-7-20/kondor-4.jpg)
+
+![图片](./doc-img/2019-7-20/kondor-5.jpg)
+
+![图片](./doc-img/2019-7-20/kondor-6.jpg)
+
+
+
+
 
 
 
