@@ -14,7 +14,7 @@ Here are the key features:
 -    Core is C++
 -    Ability to drive DLP (not at initial launch)
 
-Launch Step:
+Launch Steps:
 -    Shared BOM and img for Pi3 for public testing while we clean up the source for release and take care of bugs as needed until it is stable. 
 -    Then when the firmware is more stable and cleaned up, we will release source code.
 
@@ -57,7 +57,7 @@ Kondor was ported from a DLP printer controller code and we found that parts of 
 - Kondor Slicer - This is for slicing, adding support and simple transfer of the files for printing.
 - Kondor Device Manager - This is for managing printers running Kondor. It can be used to discover printers and send files.
 - Kondor Pi Image - This is the Kondor image for Pi3. This firmware allows Pi3 to control LCD panels and talk to the Slicer and Device Manager.
-- Kondor Marlin - This is for 2560 Ramp1.4 board. It is used to control motors and LED.
+- Kondor Marlin - This is for 2560 RAMPS 1.4 board. It is used to control motors and the main LED/light source.
 
 Above are the 4 corner stones for Kondor project.  Below is the basic UI
 
