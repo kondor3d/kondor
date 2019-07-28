@@ -83,6 +83,18 @@ In Kondor Pi Image中，We utilize [RaspAP](https://github.com/billz/raspap-webg
 
 
 
+#### 4. Kondor Hardware
+
+1. Ramp1.4 Marlin，控制电机，如下为引脚分布:
+
+![图片](./doc-img/2019-7-28/1.jpg)
+
+![图片](./doc-img/2019-7-28/2.jpg)
+
+![图片](./doc-img/2019-7-28/3.gif)
+
+
+
 
 
 
