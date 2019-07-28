@@ -84,7 +84,9 @@ In Kondor Pi Image中，We utilize [RaspAP](https://github.com/billz/raspap-webg
 
 
 
+#### 4. Kondor Hardware
 
+1. Ramp1.4 Marlin，控制电机
 
 
 
