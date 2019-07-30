@@ -83,7 +83,7 @@ Above are the 4 corner stones for Kondor project.  Below of the basic UI
 ~~In Kondor Pi Image中，We utilize [RaspAP](https://github.com/billz/raspap-webgui) for setting network configuration. Please see the link if you want to learn more.~~
 
 **2019-7-29**
-我们测试了RaspAP来进行网络设置，目前这个项目不太稳定，至少在我们的Kondor硬件系统上，运行的不是非常流畅，因此我们决定，还是在我们的LCD界面中，加入Wifi配网的界面,这对于大部分LCD打印机来讲，都是一个非常有用的功能。实现如下图:
+We started testing RaspAP for easy setup but this is still not very stable yet. So instead, we added Wi-Fi setup interface on the firmware to make it easier for users.
 
 
 ![图片](./doc-img/2019-7-30/1-keyboard.jpg)
@@ -92,7 +92,7 @@ Above are the 4 corner stones for Kondor project.  Below of the basic UI
 
 #### 4. Kondor Hardware
 
-1. Ramp1.4 Marlin，控制电机，如下为引脚分布:
+1. Ramp1.4 Marlin，Motor control，Please use below pin out
 
 ![图片](./doc-img/2019-7-28/1.jpg)
 
