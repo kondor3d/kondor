@@ -88,6 +88,13 @@ We started testing RaspAP for easy setup but this is still not very stable yet. 
 
 ![图片](./doc-img/2019-7-30/1-keyboard.jpg)
 
+**2019-8-12**
+实现了PC端的基本控制，以及Pi端的应用程序更新模块，在不用重新刷镜像以及联网的情况下，更新Raspberry Pi上面的应用程序。
+
+![图片](./doc-img/2019-8-12/1.png)
+
+![图片](./doc-img/2019-8-12/2.png)
+
 
 
 #### 4. Kondor Hardware
