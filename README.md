@@ -1,5 +1,7 @@
 ![img](./doc-img/kondor-logo.png)
 
+We have made some great stride, checkout the test video: https://youtu.be/SwICXj1q9L8
+
 ---
 # kondor
 ---
@@ -25,19 +27,19 @@ While the project is launched by2 guys from Asia, it belongs to the world. Join 
 
 ### 2.How to use it?
 
-**Pre-flight  5/12/2019**
+**Pre-flight  8/21/2019**
 
 The first stage is making sure testers have the Pi 3B and can connect the slicer to the firmware.
 please use this Google doc for instructions for now:
 https://docs.google.com/document/d/19AATh-Tu5reST9AKc0AZlHu6AHty7qCWfsSJ5gP3phQ/edit?usp=sharing
 We will move the descrition to github once we have the firmware more tested out. 
 
-**Todo List 5/14/2019**
+**Todo List 8/21/2019**
 
 Here's some idear we need to do.
 
 - Slicer
-    - [ ] translate some chinese to english
+    - [x] translate some chinese to english
     - [ ] record the device ip by default
     - [ ] hide/remove the autosupport temporarily
 
@@ -89,7 +91,9 @@ We started testing RaspAP for easy setup but this is still not very stable yet. 
 ![图片](./doc-img/2019-7-30/1-keyboard.jpg)
 
 **2019-8-12**
-实现了PC端的基本控制，以及Pi端的应用程序更新模块，在不用重新刷镜像以及联网的情况下，更新Raspberry Pi上面的应用程序。
+
+Further improve the control side from PC. Able to update the executable on Pi without reflashing img.
+
 
 ![图片](./doc-img/2019-8-12/1.png)
 
