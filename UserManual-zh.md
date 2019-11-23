@@ -16,8 +16,10 @@
 
 |硬件名称|基本描述|图片|
 |:--:|:--:|:--:|
-|树莓派3b+|基础款|<img style="width:200px;" src="./user-doc-img/2019-11-9/rspi-1.jpg" />|
+|树莓派3b|基础款|<img style="width:200px;" src="./user-doc-img/2019-11-9/rspi-1.jpg" />|
+|Kondor扩展板|328p|<img style="width:200px;" src="./user-doc-img/2019-11-23/1.png" />|
 |3.5寸树莓派屏|3.5inch RPi LCD (A)|<img style="width:200px;" src="./user-doc-img/2019-11-9/spi-lcd.jpg" />|
+|3.5寸树莓派屏排线|3.5inch RPi LCD (A)|<img style="width:200px;" src="./user-doc-img/2019-11-23/2.png" />|
 |HDMI转MIPI驱动|针对LS055T1SX04|<img style="width:200px;" src="./user-doc-img/2019-11-9/2k-lcd-driver.jpg"/>|
 |2k屏幕|1440x2560, 5.5寸|<img style="width:200px;" src="./user-doc-img/2019-11-9/2k-lcd.jpg"/>|
 
@@ -54,6 +56,8 @@
 
 ## 2.2 软件具体操作
 
+> 更具体详情请查看操作[视屏]()
+
 ### 1. 连接wifi
 
 ### 2. 设置Z轴行程
@@ -64,7 +68,8 @@
 - USB读取
 
 ### 4. 更新树莓派内应用程序
-更新程序，需要使用我们的上位机管理程序。改工具用于刷新树莓派的应用程序以及通过网络传输要打印的切片文件。
+更新程序，需要使用我们的上位机管理程序(DeviceManager)。该工具用于刷新树莓派的应用程序以及通过网络传输要打印的切片文件。
+
 
 ### 4. 常用控制面板介绍
 
