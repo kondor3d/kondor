@@ -10,9 +10,9 @@ Hardware list:
 	- 3.5 inch (default support by firmware)
 	- (other size possible but need manual change to configuration file)
 - Raspberry Pi expansion board (based on 328p)
-- LCD Panel with a compatible display driver. Some examples
-    - 2k, 5.5 inch (1440*2560) (default support)
-    - 2k, 10.1 inch (1600*2560) (need modification to configuration)
+- LCD Panel with a compatible display driver Some examples
+    	- 2k, 5.5 inch (1440*2560) (default support)
+    	- 2k, 10.1 inch (1600*2560) (need modification to configuration)
 - UV LED Array and driver
 	- For development purpose, it may be good to use a back lighted panel without UV LED array
 - microSD card with a size >= 8GB
@@ -42,7 +42,7 @@ Pictures:
 
 2. System image download address
 
-[Mirror address (to be uploaded)] ()
+[Mirror address (zz to be uploaded)] ()
 
 
 ### 2. Burn image to microSD
@@ -58,7 +58,7 @@ After that, operate the win32 Disk Imager tool as shown below.
 
 ### 3. Power-on detection
 
-Insert the burned SD card into the Raspberry Pi, plug in the Internet cable and power supply, and you can see the IP address of the Raspberry Pi through the LCD screen.
+Eject the SD card with img burned and insert it into the Raspberry Pi reader slot, plug in the Internet cable and power supply, and you can see the IP address of the Raspberry Pi through the LCD screen. If you do not have a power cable, that is ok, we can now set up wifi directly on the Raspberry Pi Screen
 
 ![图片](./user-doc-img/2019-11-9/WiFi-ip.jpg)
 
