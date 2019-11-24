@@ -5,7 +5,8 @@
 
 硬件清单:
 
-- 树莓派3b + SPI 3.5 inch系统触摸屏
+- 树莓派3B
+- 树莓派 SPI 3.5 inch系统触摸屏
 - 树莓派扩展板(基于328p)
 - 屏幕以及屏幕驱动
     - 2k,5.5 inch (1440*2560)
@@ -16,7 +17,7 @@
 
 |硬件名称|基本描述|图片|
 |:--:|:--:|:--:|
-|树莓派3b+|基础款|<img style="width:200px;" src="./user-doc-img/2019-11-9/rspi-1.jpg" />|
+|树莓派3B|基础款|<img style="width:200px;" src="./user-doc-img/2019-11-9/rspi-1.jpg" />|
 |3.5寸树莓派屏|3.5inch RPi LCD (A)|<img style="width:200px;" src="./user-doc-img/2019-11-9/spi-lcd.jpg" />|
 |HDMI转MIPI驱动|针对LS055T1SX04|<img style="width:200px;" src="./user-doc-img/2019-11-9/2k-lcd-driver.jpg"/>|
 |2k屏幕|1440x2560, 5.5寸|<img style="width:200px;" src="./user-doc-img/2019-11-9/2k-lcd.jpg"/>|
