@@ -42,8 +42,7 @@ Pictures:
 
 2. System image download address
 
-[Mirror address (zz to be uploaded)] ()
-
+[Download link] (https://drive.google.com/open?id=1-EL9I9KidLLu9mghJb_8Kg7JPAHxuW1d)
 
 ### 2. Burn image to microSD
 
