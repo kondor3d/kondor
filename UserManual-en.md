@@ -75,7 +75,15 @@ Eject the SD card with img burned and insert it into the Raspberry Pi reader slo
 ### 4. Update the Raspberry Pi app
 To update the program, we need to use our host computer management program. The change tool is used to refresh the Raspberry Pi app and transfer the slice files to be printed over the network.
 
-### 4. Introduction to common control panel
+### 5. How to Print
+Kondor currently only accepting SLC. You can use Chitubox for slicing and the send it over using our network utility.
+Utility
+https://drive.google.com/open?id=1KBSRmSwkjfgjN2d6LzRk-G3TiPGLs3Pu
+
+You would need to make sure Kondor is connected to network and then use this utility to send the SLC files over.  
+
+
+
 
 ## 3. Developer
 
