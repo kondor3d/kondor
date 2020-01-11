@@ -103,3 +103,16 @@ Konder的PC客户端以及Pi端运行的程序，都是基于Qt/C++ 框架来进
 
 
 ## 4. 开发入门
+
+我们的应用程序都是直接在KondorLCD的系统中编译的，发布的镜像中，已经集成有所有需要的开发环境。遵循下面步骤，来修改开发我们的源码。
+
+```shell
+pi@raspberryxxx: cd ~
+pi@raspberryxxx: git clone https://github.com/kondor3d/kondor.git && cd kondor
+pi@raspberryxxx: mkdir build && cd build
+pi@raspberryxxx: qmake ../src/KondorPI/FonterControler.pro -o ./ && make
+pi@raspberryxxx: sudo pkill FonterControler
+pi@raspberryxxx: cp ./FonterControler ~/Printrun && sudo reboot
+```
+
+我们的工程是一个完整的Qt工程，稍后会增加相关的软件框架说明
