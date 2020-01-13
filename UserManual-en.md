@@ -113,4 +113,17 @@ Our KondorOS development will also focus on the above three aspects, of course, 
 The packaged compression of the image must be done under Ubuntu 16.04. Using our packaged compression script, one-click copy of the system in the SD card to generate a new image and compress it.
 
 
-## 4. ToDo List Here
+## 4. Framework
+
+Our applications are compiled directly in the KondorLCD system, and all the required development environments have been integrated into the released image. Follow the steps below to modify and develop our source code.
+
+```shell
+pi@raspberryxxx: cd ~
+pi@raspberryxxx: git clone https://github.com/kondor3d/kondor.git && cd kondor
+pi@raspberryxxx: mkdir build && cd build
+pi@raspberryxxx: qmake ../src/KondorPI/FonterControler.pro -o ./ && make
+pi@raspberryxxx: sudo pkill FonterControler
+pi@raspberryxxx: cp ./FonterControler ~/Printrun && sudo reboot
+```
+
+Our project is a complete Qt project, and the relevant software framework description will be added later
